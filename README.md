@@ -17,7 +17,7 @@ This web page is an e-commerce that sells hats for both women and men, it's for 
 The design was made with figma after searching references, we wanted the web to be modern and elegant at the same time, we use the photos that the client give to us.
 ![Mobile](./img/designMobile.jpg)
 ![Tablet](./img/designTablet.jpg)
-![Tablet](./img/designDesktop.jpg)
+![Desktop](./img/designDesktop.jpg)
 
 ## Technologies
 ***
@@ -29,8 +29,8 @@ The .... was missing because we didn't have the time it takes.
 
 ## Collaborators
 ***
-Gabriela Piñeiro
-Berta López
-Joan Recorda
-Sergio Corcuera
+Gabriela Piñeiro,
+Berta López,
+Joan Recorda,
+Sergio Corcuera,
 Alexandra Galarza
