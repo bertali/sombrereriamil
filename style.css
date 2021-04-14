@@ -6,13 +6,14 @@
 
 .headerS1 {
     display: flex;
-    justify-content: space-between;
-    padding: 10px 10px;
     height: auto;
     position: fixed;
     background-color: white;
-    width: 100%;
+    width: 100vw;
+    height: 10vh;
     z-index: 1;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .buttonMenu {
@@ -42,7 +43,7 @@
 
 .ctPrincipal {
     width: 100vw;
-    height: 91vh;
+    height: 100vh;
     overflow: hidden;
     position: relative;
 }
