@@ -4,6 +4,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap');
 /*font-family: 'Lovers Quarrel', cursive;*/ 
 
+
+.headerS1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
 .imgMenu {
     width: 34px;
     height: auto;
@@ -28,12 +35,21 @@
     width: 100vw;
     height: 85vh;
     overflow: hidden;
+    position: relative;
 }
 
 .imgPrincipal {
     width: auto;
     height: 100%;
     object-position:left;
-    object-fit:cover;
-   
+    object-fit:cover; 
+}
+
+h1{
+    font-family: 'Lovers Quarrel', cursive;
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 50%;
 }
