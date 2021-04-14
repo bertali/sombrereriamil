@@ -9,11 +9,18 @@
     display: flex;
     justify-content: space-between;
     padding: 10px 10px;
+    height: auto;
+}
+
+.buttonMenu{
+    border: none;
+    background-color: white;
 }
 
 .imgMenu {
     width: 34px;
     height: auto;
+   
 }
 
 .imgLogo {
@@ -33,7 +40,7 @@
 
 .ctPrincipal {
     width: 100vw;
-    height: 85vh;
+    height: 91vh;
     overflow: hidden;
     position: relative;
 }
@@ -43,6 +50,7 @@
     height: 100%;
     object-position:left;
     object-fit:cover; 
+    filter: brightness(70%);
 }
 
 h1{
@@ -51,5 +59,33 @@ h1{
     color: white;
     position: absolute;
     top: 20%;
-    left: 50%;
+    left: 35%;
+    text-align: right;
+    padding-right: 20px;
 }
+
+.headerS2{
+    position:relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    }
+
+.buttonFlecha{
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+    position: absolute;
+    border: none;
+    background-color: white;
+    margin-bottom: 10px;
+    }
+
+.imgFlecha{
+  height: 20px;
+  width: 30px; 
+  
+  
+  
+}
+
