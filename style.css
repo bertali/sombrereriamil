@@ -142,5 +142,47 @@ h2{
     text-align: center;
     margin-top: auto;
     padding-bottom: 19px;
+}
 
+.imgCerrar {
+    height: 20px;
+    width:auto;
+}
+
+h3{
+    font-family: 'Livvic', sans-serif;
+    font-size: 1rem;  
+    font-weight: bold;
+    margin-top: auto;
+}
+
+.txtDescripcion {
+    font-family: 'Livvic', sans-serif;
+}
+
+.ctTallas{
+    display: flex;
+    font-family:'Livvic', sans-serif;
+    justify-content: space-between;
+}
+
+.ctTallas div{
+    width: 44px;
+    height: 44px;
+    border: 1px solid #F7CA59;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ctTallas div:nth-child(1){
+    background-color: #F7CA59;
+}
+
+.ctCaracteristics {
+}
+
+.ctCaracteristics p {
+    font-family: 'Livvic', sans-serif;
 }
