@@ -6,11 +6,12 @@
 
 .headerS1 {
     display: flex;
-    height: auto;
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;
     position: fixed;
     background-color: white;
     width: 100vw;
-    height: 10vh;
     z-index: 1;
     justify-content: space-around;
     align-items: center;
