@@ -2,7 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Livvic:wght@400;700&display=swap');
+
 /*font-family: 'Livvic', sans-serif;*/
+
+
 /*font-family: 'Lovers Quarrel', cursive;*/
 
 .headerS1 {
@@ -94,7 +97,7 @@ h1 {
 main {
     height: 100vh;
     padding-top: 10vh;
-
+    position: relative;
 }
 
 .ctCatalogo {
@@ -102,7 +105,7 @@ main {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     gap: 10px;
-    padding:0 8px;
+    padding: 0 8px;
     padding-right: 8px;
 }
 
@@ -111,18 +114,17 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;     
+    align-items: center;
     box-shadow: 0px 7px 11px rgba(0, 0, 0, 0.15);
     width: 170px;
     height: 197px;
- }
+}
 
 .imgSombrero img {
     width: 100%;
-  
 }
 
-.textoSombrero{
+.textoSombrero {
     font-size: 1rem;
     font-family: 'Livvic', sans-serif;
     color: white;
@@ -131,13 +133,13 @@ main {
     align-items: center;
 }
 
-.textoSombrero p:nth-child(2){
+.textoSombrero p:nth-child(2) {
     font-weight: bold;
 }
 
-h2{
+h2 {
     font-family: 'Livvic', sans-serif;
-    font-size: 1rem;  
+    font-size: 1rem;
     font-weight: bold;
     text-align: center;
     margin-top: auto;
@@ -153,6 +155,9 @@ h2{
     width: 85vw;
     margin: auto;
     padding: 6%;
+    position: absolute;
+    top: 129px;
+    left: 7px;
 }
 
 .ctDescripcion {
@@ -160,15 +165,20 @@ h2{
     flex-direction: column;
 }
 
-.imgCerrar {
-    height: 20px;
-    width:auto;
+.btCerrar {
+    background-color: transparent;
+    border: none;
     align-self: flex-end;
 }
 
-h3{
+.imgCerrar {
+    height: 20px;
+    width: auto;
+}
+
+h3 {
     font-family: 'Livvic', sans-serif;
-    font-size: 1rem;  
+    font-size: 1rem;
     font-weight: bold;
     margin-top: 25px;
 }
@@ -178,14 +188,14 @@ h3{
     margin-top: 25px;
 }
 
-.ctTallas{
+.ctTallas {
     display: flex;
-    font-family:'Livvic', sans-serif;
+    font-family: 'Livvic', sans-serif;
     justify-content: space-between;
     margin-top: 25px;
 }
 
-.ctTallas div{
+.ctTallas div {
     width: 44px;
     height: 44px;
     border: 1px solid #F7CA59;
@@ -195,7 +205,7 @@ h3{
     justify-content: center;
 }
 
-.ctTallas div:nth-child(1){
+.ctTallas div:nth-child(1) {
     background-color: #F7CA59;
 }
 
@@ -206,4 +216,3 @@ h3{
 .ctCaracteristics p {
     font-family: 'Livvic', sans-serif;
 }
-
