@@ -94,3 +94,24 @@ main {
     height: 100vh;
     background-color: green;
 }
+
+.ctCatalogo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+}
+
+.cartSombrero {
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imgSombrero img {
+    height: 148px;
+    width: 170px;
+}
