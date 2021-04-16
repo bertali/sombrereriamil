@@ -1,4 +1,4 @@
-# sombrereriamil
+# Sombrereria Mil
 
 ## table of contents
 
@@ -14,18 +14,18 @@ This web page is an e-commerce that sells hats for both women and men, it's for 
 
 ## Design
 ***
-The design was made with figma after searching references, we wanted the web to be modern and elegant at the same time, we use the photos that the client give to us.
+The design was made with figma after searching references, we wanted the web to be modern and elegant at the same time, we use the photos that the client give to us. It is also responsive.
 ![Mobile](./img/designMobile.jpg)
 ![Tablet](./img/designTablet.jpg)
 ![Desktop](./img/designDesktop.jpg)
 
 ## Technologies
 ***
-We use html, css and javascript, we split the content in two big sections, the header and the main, and a small third section for footer, for css the header was based in flex and catalogue with grid.
+We use html, css and javascript, we split the content in two big sections, the header and the main, and a small third section for footer, for css the header was based in flex and for catalogue with grid. The classes has a prefix that show us the kind of element it is. For images the prefix is "img" and followed the name in camelCase for example "imgLogo", for buttons "bt", for containers "ct", for text "txt".
 
 ## To do
 ***
-The .... was missing because we didn't have the time it takes.
+The responsive was missing because we didn't have the time it takes.
 
 ## Collaborators
 ***
