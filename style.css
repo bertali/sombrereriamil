@@ -216,3 +216,23 @@ h3 {
 .ctCaracteristics p {
     font-family: 'Livvic', sans-serif;
 }
+
+
+/*Aquí van las medias queries*/
+
+@media screen and (min-width: 376px){
+    header{
+        height: 100vh;
+        background-image: url(/img/principal.jpg);
+        background-size: cover;
+    }
+
+    .headerS1{
+        display:none;
+    }
+    
+    .imgPrincipal {
+        display: none;
+    }
+    
+}
