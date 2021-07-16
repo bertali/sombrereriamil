@@ -21,7 +21,7 @@ The design was made with figma after searching references, we wanted the web to 
 
 ## Technologies
 ***
-We use html, css and javascript, we split the content in two big sections, the header and the main, and a small third section for footer, for css the header was based in flex and for catalogue with grid. The classes has a prefix that show us the kind of element it is. For images the prefix is "img" and followed the name in camelCase for example "imgLogo", for buttons "bt", for containers "ct", for text "txt".
+We used html, css and javascript. We split the content in two big sections: the header and the main body, and a small third section for footer, for css the header was based in flex and for the catalogue with grid. The classes has a prefix that show us the kind of element it is. For images the prefix is "img" and followed the name in camelCase for example "imgLogo", for buttons "bt", for containers "ct", for text "txt".
 
 ## To do
 ***
